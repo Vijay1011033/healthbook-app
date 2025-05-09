@@ -1,0 +1,31 @@
+health_system/
+├── backend/
+│   ├── app/
+│   │   ├── __init__.py
+│   │   ├── main.py
+│   │   ├── models.py
+│   │   ├── schemas.py
+│   │   ├── database.py
+│   │   └── routers/
+│   │       ├── __init__.py
+│   │       └── doctors.py
+│   ├── tests/
+│   │   ├── __init__.py
+│   │   └── test_doctors.py
+│   └── requirements.txt
+├── frontend/
+│   ├── public/
+│   │   └── index.html
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── DoctorList.js
+│   │   │   ├── AppointmentForm.js
+│   │   │   └── CancelAppointment.js
+│   │   ├── App.js
+│   │   └── index.js
+│   └── package.json
+├── sdk/
+│   └── README.md
+└── scripts/
+    ├── setup.ps1
+    └── run.ps1

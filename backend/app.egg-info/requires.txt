@@ -1,0 +1,5 @@
+fastapi
+sqlalchemy
+pytest
+requests
+httpx
